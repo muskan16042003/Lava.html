@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Responsive Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>window.onload = function(){
+        document.getElementById('loader').style.display="none";
+        document.getElementById('content').style.display="block";
+    
+    }</script>
+</head>
+
+
+<body>
+    
+    <div id="loader">
+        <img src="image/loader.avif" alt="">
+    </div>
+    <div id="content">
+
+        <div id="data">
+            <div class="header">
+
+
+                <div class="logo">
+                    <a href="#">Lava</a>
+                </div>
+                <div class="bar" onclick="myFunction()">
+                    <i class="fa-solid fa-bars" style="color: #FFD43B;"></i>
+                </div>
+                <div class="list" id="List">
+
+                    <ul>
+                        <li class="nav-item"><a class="nav-link" href="#home"> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about"> About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#product"> Product</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact"> Contact</a></li>
+                        <button class="btn">Buy Now</button>
+                    </ul>
+
+                </div>
+            </div>
+            <!--navbar end-->
+            <!-- home section start-->
+
+
+            <div class="home-section" id="home">
+                <div class="home-img">
+                    <img src="image/head3.png" alt="banner img">
+                </div><!-- heading div-->
+                <div class="heading">
+                    <h1> Designed For You
+                        <span class="home-span">Quality Music</span>
+                    </h1>
+                    <p class="para-home">In-ear headphones provide comfort, quality, and style. The Handsfree With
+                        Remote Note Enjoy your music and calls...!</p>
+                    <div class="btn-home">
+                        <a href="#" class="home-link">Buy Now</a>
+                        <a href="#" class="home-link btn-2">Explore</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!--header div finished-->
+
+            <!--About Us part-->
+
+            <section id="about"></section>
+            <section class="container">
+                <div>
+                    <div class="about-us-container">
+                        <div class="about-us">
+                            <h3 class="heading-about">About-us <h3>
+                                    <p class="para-about">There are better-sounding earbuds, <br>for sure, but you're no
+                                        longer
+                                        sacrificing sound quality to get everything else
+                                        that makes the AirPods such a standout choice.</p>
+                                    <p class="para-about">They are particularly excellent if you use Apple devices,
+                                        where the
+                                        tighter integration with software shines through.</p>
+
+                                    <a href="#" class="link-about"> Read More
+                                        <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                                    </a>
+                                    <div class="im">
+                                        <img src="/image/img.jpg" class="img" width="40%" height="60%">
+                                    </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </section>
+            <!--About us part End-->
+
+            <section class="Product">
+                <h2 class="heading-product" id="product">Product Category</h2>
+                <div class="slider">
+                    <!--slider-->
+                    <i class="fa-solid fa-less-than fa-lg icon1"></i>
+                    <div class="slider">
+
+                        <div class="slider1">
+                            <img src="/image/airphone.png" width="250px" height="180px">
+                            <h4 class="heading1">EAR PHONES-83D</h4>
+                            <P class="p1">83 Earphones Original Like Wireless Bluetooth Neckband Flexible In-Ear
+                                Headphones
+                                Headset With
+                                Built-in Mic.</P>
+
+                            <a href="#" class="link-about" style="margin-top:30px;"> Read More
+                                <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                        <div class="slider2">
+                            <img src="/image/slider-img2.jpg" width="250px" height="180px">
+
+                            <h4 class="heading1">E5D-EARPHONES</h4>
+
+                            <p class="p1">Bluetooth On Ear Headphones with Mic, Upto 15 Hours Playback, 40MM Drivers,
+                                Padded Ear
+                                Cushions,</p>
+                            <a href="#" class="link-about" style="margin-top:30px;"> Read More
+                                <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                        <div class="slider3">
+                            <img src="/image/slider-img3.jpg" width="250px" height="180px">
+
+                            <h4 class="heading1">WIRELESS HEAD-PHONE</h4>
+
+                            <p class="p1">His stylish and ergonomic headphone is perfect for gaming, featuring BT5.0
+                                technology
+                                for a
+                                stable.</p>
+
+                            <a href="#" class="link-about" style="margin-top:30px;"> Read More
+                                <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                            </a>
+
+                        </div>
+                        <i class="fa-solid fa-greater-than fa-lg icon2"></i>
+                    </div>
+            </section>
+            <!-- CONTACT-FORM  START-->
+
+            <section class="contact-us" id="contact">
+
+                <h3 class="heading-contact"> Contact Us</h3>
+                <div class="contact-form">
+                    <div class="Contact">
+                        <input type="text" class="form-control" placeholder="Full Name*" id="text-id">
+                        <input type="text" class="form-control " placeholder="Email" id="text-id"><br><br>
+
+
+                        <textarea cols="4" rows="4" placeholder="Your Message"></textarea>
+                        <div class="btn1">
+                            <input type="submit" class="btn" value="Send Your Message">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer section-->
+            <footer>
+                <p class="para-footer"> &#169; CopyRight By Muskan Pathak... </p>
+            </footer>
+
+        </div>
+
+    </div>
+
+
+
+ 
+
+</body>
+
+</html>
